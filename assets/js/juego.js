@@ -91,7 +91,7 @@ const turnoComputadora = ( puntosMinimos) => {
     setTimeout(() => {
         mensaje = ( puntosComputador === puntosMinimos) ? 'El juego quedó empatado' : ( puntosMinimos > 21 ) ? 'Ganó el computador' : (puntosComputador > 21) ? 'Ganó el jugador' : 'Ganó el computador';
         alert( mensaje );  
-    }, 2000);
+    }, 1000);
 
     
     
